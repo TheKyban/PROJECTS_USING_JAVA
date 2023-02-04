@@ -1,3 +1,4 @@
+package Testing;
 class Animal {
     void Type() {
         System.out.println("Animal");

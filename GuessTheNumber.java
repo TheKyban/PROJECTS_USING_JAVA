@@ -33,7 +33,10 @@ public class GuessTheNumber {
             int gues = sc.nextInt();
             String ans = game.check(gues);
             System.out.println(ans);
-            if (ans.equals("great")) return;
-        }
+            if (ans.equals("great")) {
+                sc.close();
+                return;
+            } 
+        } 
     }
 }
